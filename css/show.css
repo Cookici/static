@@ -1,0 +1,27 @@
+.title{
+    text-align: left;
+}
+
+.title-area{
+    font-size: 20px; 
+    color: rgb(68, 68, 68); 
+}
+
+.text{
+    text-align:justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-area{
+    font-size:16px;line-height:1.8;
+}
+
+button{
+    margin-left: 40px;
+    width: 150px; 
+    height: 40px; 
+    background-color: #fff;
+    color: rgb(55,46,151);
+    border: rgb(55,46,151) 1px solid;
+}

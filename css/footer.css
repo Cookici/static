@@ -1,0 +1,29 @@
+.footer {
+  background-color: #F5F5F5;
+  height: auto; /* 移除固定高度，以允许内容撑开高度 */
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  flex-wrap: wrap; /* 添加 flex-wrap，允许内容换行 */
+}
+
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.footer .footer-container .item {
+  width: auto; /* 默认宽度，会根据内容自动调整 */
+  text-align: left;
+  font-weight: 400;
+}
+
+.footer .footer-container .item h4 span {
+  color:#666666;
+  line-height: 2;
+  font-size: 15px;
+}

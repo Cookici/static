@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.left {
+    background-color: #fff;
+    flex:1;
+}
+
+.center {
+    background-color: #fff;
+    width: 60%;
+    text-align: center;
+}
+
+.right {
+    background-color: #fff;
+    flex:1;
+}

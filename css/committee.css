@@ -1,0 +1,46 @@
+        /* 大容器样式 */
+        .member-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+
+        /* 小容器样式 */
+        .member {
+            width: 30%; /* 30%宽度以确保每行有三个 */
+            border: 1px  #ccc;
+            margin-bottom: 20px;
+            display: flex;
+            padding-top: 30px;
+        }
+
+        /* 图片样式 */
+        .member .img-carsousel {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* 右边内容样式 */
+        .person-content {
+            padding: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(245,245,245);
+        }
+
+        /* 标题样式 */
+        .title {
+            font-weight: bold;
+            text-align: center;
+            flex: 1;
+            padding-top: 40px;
+        }
+
+        /* 介绍样式 */
+        .description {
+            margin-bottom: 40px;
+            text-align: center;
+            flex: 1;
+        }
