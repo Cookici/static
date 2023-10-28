@@ -86,7 +86,7 @@
 
 
 .fa-user{
-  color: rgb(109, 102, 102);
+  color: rgb(139,139,139);
 }
 
 .nav {
@@ -132,6 +132,8 @@
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
 
@@ -139,7 +141,7 @@
   font-weight: 500;
   color: #141414;
   letter-spacing: 1px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .details p {
