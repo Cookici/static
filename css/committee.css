@@ -50,7 +50,7 @@
 
 .member-container .box {
   width: 260px;
-  height: 360px;
+  height: 340px;
   background-color: #ffffff;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0, 05);
   flex-direction: column;
@@ -79,6 +79,7 @@
 }
 
 .nav {
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;

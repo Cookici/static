@@ -3,7 +3,7 @@
     height: 300px;
 }
 
-.big-img  .container {
+.big-img .container {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -11,8 +11,21 @@
     position: relative;
 }
 
-.big-img  .container img {
+.big-img .container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
+}
+
+.big-img .container span {
+    width: 1000px;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    opacity: 1;
+    font-weight: 500;
+    color: #f8f8f8;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
 }
