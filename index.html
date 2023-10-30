@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet" type="text/css" href="./css/show.css">
     <link rel="stylesheet" type="text/css" href="./css/carousel.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/totop.css">
+    <title>首页</title>
 </head>
 
 <body>
@@ -21,6 +22,7 @@
 
     <script type="text/javascript" src="./js/chooseNav.js"></script>
     <script type="text/javascript" src="./js/carousel.js"></script>
+    <script type="text/javascript" src="./js/goToTop.js"></script>
 
     <div class="container" style="min-height: 100%;display: flex;flex-direction: column;">
         <!-- 页面头 -->
@@ -55,15 +57,9 @@
 
                 <div class="carousel">
                     <div class="container">
-                        <a href="https://www.baidu.com" target="_blank"
-                        ><img src="./images/first.png"
-                    /></a>
-                    <a href="https://www.baidu.com" target="_blank"
-                        ><img src="./images/third.png"
-                    /></a>
-                    <a href="https://www.baidu.com" target="_blank"
-                        ><img src="./images/second.png"
-                    /></a>
+                        <a href="https://www.baidu.com" target="_blank"><img src="./images/first.png" /></a>
+                        <a href="https://www.baidu.com" target="_blank"><img src="./images/third.png" /></a>
+                        <a href="https://www.baidu.com" target="_blank"><img src="./images/second.png" /></a>
                     </div>
                     <div class="shift">
                         <div id="btn-left" class="btn left">&lt;</div>
@@ -89,7 +85,9 @@
                     <span class="text-area">重庆市民政局社会组织管理局局长李洋给体验管理人才专委会正式授牌。</span>
                 </p>
             </div>
-            <div class="right"></div>
+            <div class="right">
+                <img class="gototop" src="./images/back_top.png" width="60" id="img" onclick="javascript:window.scrollTo(0,0)">
+            </div>
         </div>
 
         <!-- 页面底 -->
